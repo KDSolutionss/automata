@@ -36,7 +36,7 @@ for (let i = 0; i < S.length; i++) {
     }
     else
         position = 0;
-    if (position == t.length - 1) {
+    if (position == t.length) {
         console.log(i - position + 1);
     }
 }
