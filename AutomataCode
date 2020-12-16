@@ -32,7 +32,7 @@ S = S.toString();
 let position = 0;
 for (let i = 0; i < S.length; i++) {
     if (S[i] in alph) {
-        position = del[position][S.charAt(i)];
+        position = del[position][S[i]];
     }
     else
         position = 0;
